@@ -11,6 +11,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
+import { FirstComponent } from './first/first.component';
+import { SecondComponent } from './second/second.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component';
     BannerComponent,
     FooterComponent,
     HomeComponent,
-    AboutusComponent
+    AboutusComponent,
+    FirstComponent,
+    SecondComponent
   ],
   imports: [
     BrowserModule,
