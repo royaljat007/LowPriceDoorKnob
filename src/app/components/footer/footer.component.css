@@ -1,0 +1,69 @@
+/* footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+} */
+h3{
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+footer ul{
+    list-style: none;
+    padding-left:0;
+}
+footer .footer-menus h3,
+footer .footer-social h3{
+    color: #fff;
+    margin-bottom: 20px;
+    
+}
+footer .footer-menus ul li a{
+    color: #fff;
+    padding: 10px 0;
+    padding-left: 35px;
+    display: block;
+    position: relative;
+    line-height: 20px;
+font-size: 1rem;
+    text-decoration: none;
+}
+footer .footer-menus ul li a:before{
+    content:'';
+    position: absolute;
+    display: block;
+    background-image: url(https://lowpriced8.webserver9.com/themes/lowpriceknobs/images/bullet.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 0;
+}
+ul.footer-blogs li a{
+border-bottom: 1px dashed #fff;
+}
+ul.nav.social li a {
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    border-radius: 50px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    background-color: #024c75;
+    font-size: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
+}
+
+.copyright a {
+    color: #fff;
+    text-decoration: none;
+}
