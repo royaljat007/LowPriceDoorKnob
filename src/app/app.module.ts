@@ -11,8 +11,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
-import { FirstComponent } from './first/first.component';
-import { SecondComponent } from './second/second.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +21,7 @@ import { SecondComponent } from './second/second.component';
     FooterComponent,
     HomeComponent,
     AboutusComponent,
-    FirstComponent,
-    SecondComponent
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

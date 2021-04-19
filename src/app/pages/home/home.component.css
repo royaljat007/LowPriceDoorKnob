@@ -1,0 +1,29 @@
+.material-name a{
+    color: #1a1919;
+    text-decoration: none;
+
+}
+span.section-tagline {
+    font-weight: 500;
+    color: #797878;
+}
+.section-title-content p {
+    font-size: 15px;
+}
+.right-0 {
+    right: 0 !important;
+}
+
+
+
+.logos:nth-child(2),.logos:nth-child(4),.logos:nth-child(5),.logos:nth-child(7){
+background-color:  #e5e5e5;}
+.logos:nth-child(1),.logos:nth-child(3),.logos:nth-child(6),.logos:nth-child(8){
+    background-color:#ffefe5 ;
+}
+.logos a{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}

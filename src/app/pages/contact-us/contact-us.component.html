@@ -1,0 +1,54 @@
+<app-header></app-header>
+<div class="container my-5 py-5">
+<section></section>
+<form class="contact-form">
+<h1 class="mb-5 text-dark">Contact Form</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label for="InputFirstname" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="InputFirstname" required>
+              </div>
+        </div>
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label for="InputLastname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="InputLastname" required>
+              </div> 
+        </div>
+    <div class="col-md-6">
+        <div class="mb-3">
+            <label for="InputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" required>
+          </div>
+    </div>
+    <div class="col-md-6">
+        <div class="mb-3">
+            <label class="form-label"> Category</label>
+            <select class="form-select" aria-label="Default select" required>
+              <option selected>General Questions</option>
+              <option value="1">Return or Exchange Request</option>
+              <option value="2">Request a Quote</option>
+            </select>
+          </div>
+    </div>
+    <div class="col-md-12">
+        <div class="mb-3">
+            <label for="InputSubject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="InputSubject">
+          </div> 
+    </div>
+    <div class="col-md-12">
+          <div class="mb-3">
+            <label for="FormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="FormControlTextarea1" rows="3" required></textarea>
+          </div>
+    </div>
+    <div class="col-md-12">
+        <input class="btn btn-dark" type="submit">
+    </div>
+</div>
+</form>
+<section></section>
+</div>
+<app-footer></app-footer>
