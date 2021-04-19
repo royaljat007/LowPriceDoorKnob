@@ -27,3 +27,37 @@ background-color:  #e5e5e5;}
     justify-content: center;
     align-items: center;
 }
+
+.home-about{
+    font-size: 1.2rem;
+    color: #3d3d3d;
+}
+.corners li{
+    background-image: url(/assets/corner-4.jpeg);
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    filter: opacity(0.5);
+
+}
+.corners .corner-1{
+    top: -13px;
+    left: -13px;
+}
+.corners .corner-2{
+    top: -13px;
+    right: -13px;
+    transform: rotate(90deg);
+}
+.corners .corner-3{
+    bottom: -13px;
+    left: -13px;
+     transform: rotate(270deg);
+   
+}
+.corners .corner-4{
+    bottom: -13px;
+    right: -13px;
+    transform: rotate(180deg);
+}
