@@ -12,14 +12,14 @@
   <li><a href="#">My Account</a></li>
   <li><a href="#">Help</a></li>
   <li><a href="#">Contact Us</a></li>
-  <li><a href="#">Log In</a></li>
+  <li><a href="/login">Log In</a></li>
   <li><a href="#">Register</a></li>
 </ul>
 
 </div>
+<header>
 
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-0" [ngClass]="{ sticky: scrolled }">
   <div class="container-fluid p-0 flex-column">
     <div class="navbar-brand d-flex"><a  href="#">LowPrice<span class="text-danger">DoorKnobs</span>.com</a>
      <div class="quick-menu">
@@ -90,4 +90,4 @@
     </div>
   </div>
 </nav>
-
+</header>
