@@ -12,3 +12,6 @@ body { margin: 0;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;}
+img{
+    max-width: 100%;
+}

@@ -1,1 +1,41 @@
-<p>login works!</p>
+<app-header></app-header>
+<!-- <========login-page=======> -->
+<section class="login-page animate__animated animate__fadeIn my-5 border rounded-3 overflow-hidden shadow w-75 mx-auto">
+    <div class="container-fluid">
+        <div class="row">
+<div class="pt-5 col-md-5 login-banner text-center bg-dark">
+<div><h1 class="text-white my-4">Welcome to</h1>
+<h4 class="  text-white">LowPrice<span class="text-danger">DoorKnobs</span>.com</h4></div>  
+<div class="mb-4">
+  <P class="text-white fs-4">New User?</P>
+  <a class="btn btn-light" href="/register">Sign Up</a>
+</div>
+
+</div>
+<div class="col-md-7">
+    <div class="login-form p-4 my-5">
+        <form>
+            <h1 class="text-dark mb-5">User Login</h1>
+             <div class="mb-3">
+              <label for="InputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" required>
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="InputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="InputPassword1" required>
+             
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="Check1" required>
+              <label class="form-check-label" for="Check1">Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-dark btn-md rounded-2">Login</button>
+            <a href="#" class="btn btn-link link-danger">Forget Password</a>
+          </form>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

@@ -1,0 +1,17 @@
+.login-banner {
+    background-image: url(https://lowpriced8.webserver9.com/themes/lowpriceknobs/images/footer-door.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.login-banner h4{
+    font-family: serif;
+    font-size: 2rem;
+    margin: 0;
+    text-decoration: none;
+
+}
