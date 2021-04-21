@@ -23,5 +23,10 @@ export class HeaderComponent {
 clickEvent(){
     this.status = !this.status;       
 }
+classApplied = false;
+
+toggleClass() {
+  this.classApplied = !this.classApplied;
+}
   
 }

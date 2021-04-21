@@ -1,0 +1,32 @@
+
+@media (max-width:900px) {
+    .header-top{
+      display: none;
+    }
+    .navbar-brand{
+      padding: .3rem 1rem;
+    }
+  
+  .navbar-collapse.collapse.show {
+    left: 0 !important;
+  }
+  
+  .navbar-collapse {
+    left: -420px !important;
+    display: block !important;
+    position: fixed !important;
+    z-index: 999;
+    width: 300px !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    transition: all .2s ease;
+    height: 100% !important;
+  }
+  
+  }
+  @media (max-width:800px){
+    .navbar-brand a {
+      font-size: 1.5rem;
+    }
+  }
+  

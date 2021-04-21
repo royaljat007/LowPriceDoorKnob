@@ -25,22 +25,25 @@
   <section class="main-nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light p-0" [ngClass]="{ sticky: scrolled }">
       <div class="container-fluid p-0 flex-column">
-        <div class="navbar-brand d-flex"><a href="#">LowPrice<span class="text-danger">DoorKnobs</span>.com</a>
+        <div class="navbar-brand d-flex"><a href="#"><img src="https://lowpriced8.webserver9.com/sites/default/files/lowprice_logo.png" alt=""></a>
           <div class="quick-menu">
             <label class="me-3"><input type="text" id="search-bar"><span class="search-icon"
                 placeholder="Search "></span></label>
             <a class="fs-5 me-sm-3" href="#">
               <i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            <button class="navbar-toggler" (click)="toggleClass()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="icon-bar top-bar"></span>
               <span class="icon-bar middle-bar"></span>
               <span class="icon-bar bottom-bar"></span>
+              <div [class.active]="classApplied" class="shadow-bg"></div>
             </button>
           </div>
         </div>
+   
+   
   <app-mainmenu class="w-100"></app-mainmenu>
-      </div>
+  </div>
     </nav>
   </section>
 

@@ -23,7 +23,6 @@
   margin: 0;
 }
 .navbar-brand a {
-  font-family: serif;
   font-size: 2rem;
   margin: 0;
   color: #000;
@@ -134,4 +133,19 @@ span.icon-bar {
 }
 span.icon-bar.bottom-bar {
   margin: 0;
+}
+.shadow-bg{
+  display:none;
+  position: fixed;
+ 
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 55;
+  background-color: rgba(0, 0, 0, 0.37);
+
+}
+.shadow-bg.active{
+  display: block;
+  left: 0;
 }
