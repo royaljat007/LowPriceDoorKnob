@@ -11,5 +11,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  classApplied = false;
 
+  toggleClass() {
+    this.classApplied = !this.classApplied;
+  }
 }

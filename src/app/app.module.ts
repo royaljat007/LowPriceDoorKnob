@@ -15,6 +15,7 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PageNotFoundComponent } from './pages/pagenotfound/pagenotfound.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { MainmenuComponent } from './components/mainmenu/mainmenu.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { RegisterComponent } from './pages/register/register.component';
     LoginComponent,
     PageNotFoundComponent,
     RegisterComponent,
+    MainmenuComponent,
 
   ],
   imports: [
