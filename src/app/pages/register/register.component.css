@@ -1,4 +1,6 @@
-.login-banner {
+
+/* <========register-banner========> */
+.register-banner {
     background-image: url(https://lowpriced8.webserver9.com/themes/lowpriceknobs/images/footer-door.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -8,7 +10,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.login-banner h4{
+.register-banner h4{
     font-family: serif;
     font-size: 2rem;
     margin: 0;
