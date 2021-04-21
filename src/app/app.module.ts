@@ -16,6 +16,9 @@ import { LoginComponent } from './pages/login/login.component';
 import { PageNotFoundComponent } from './pages/pagenotfound/pagenotfound.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { MainmenuComponent } from './components/mainmenu/mainmenu.component';
+import { CartComponent } from './components/cart/cart.component';
+import { ProductsComponent } from './components/products/products.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -31,16 +34,21 @@ import { MainmenuComponent } from './components/mainmenu/mainmenu.component';
     PageNotFoundComponent,
     RegisterComponent,
     MainmenuComponent,
+    CartComponent,
+    ProductsComponent,
+    
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     NgbModule,
     NgbPaginationModule, 
     NgbAlertModule,
     FontAwesomeModule
+    
   ],
   
   providers: [],

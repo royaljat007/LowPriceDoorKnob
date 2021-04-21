@@ -6,6 +6,9 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PageNotFoundComponent } from './pages/pagenotfound/pagenotfound.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { CartComponent } from './components/cart/cart.component';
+import { ProductsComponent } from './components/products/products.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,7 +16,10 @@ const routes: Routes = [
   { path: 'contact_us', component: ContactUsComponent},
   { path: 'login', component: LoginComponent},
   { path: 'register', component: RegisterComponent},
+  { path: 'cart', component: CartComponent},
+  { path: 'Product', component: ProductsComponent},
   { path: '**', component: PageNotFoundComponent}
+
 ];
 
 @NgModule({
