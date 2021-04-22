@@ -1,10 +1,10 @@
 /* <========input========> */
-input.text-input {
+.text-input {
     border: 2px solid #e5e5e5;
     border-radius: 0;
     height: 45px;
 }
-input.text-input:focus {
+.text-input:focus {
     box-shadow: 0px 1px 5px 1px #bbb9b9;
     outline: none;
 }

@@ -21,6 +21,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HelpComponent } from './pages/help/help.component';
 import { NgxSpinnerModule } from "ngx-spinner";
+import { CouponsComponent } from './pages/coupons/coupons.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { NgxSpinnerModule } from "ngx-spinner";
     CartComponent,
     ProductsComponent,
     HelpComponent,
+    CouponsComponent,
     
   ],
   imports: [
