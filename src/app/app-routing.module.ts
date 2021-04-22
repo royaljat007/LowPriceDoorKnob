@@ -6,6 +6,7 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PageNotFoundComponent } from './pages/pagenotfound/pagenotfound.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { HelpComponent } from './pages/help/help.component';
 import { CartComponent } from './components/cart/cart.component';
 import { ProductsComponent } from './components/products/products.component';
 
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent},
   { path: 'cart', component: CartComponent},
   { path: 'Product', component: ProductsComponent},
+  { path: 'help', component: HelpComponent},
   { path: '**', component: PageNotFoundComponent}
 
 ];
