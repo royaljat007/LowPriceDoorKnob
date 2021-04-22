@@ -20,7 +20,7 @@ import { CartComponent } from './components/cart/cart.component';
 import { ProductsComponent } from './components/products/products.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HelpComponent } from './pages/help/help.component';
-
+import { NgxSpinnerModule } from "ngx-spinner";
 
 
 @NgModule({
@@ -49,8 +49,9 @@ import { HelpComponent } from './pages/help/help.component';
     NgbModule,
     NgbPaginationModule, 
     NgbAlertModule,
-    FontAwesomeModule
-    
+    FontAwesomeModule,
+    NgxSpinnerModule 
+  
   ],
   
   providers: [],
