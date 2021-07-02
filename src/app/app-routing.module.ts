@@ -4,7 +4,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { LoginComponent } from './pages/login/login.component';
-import { PageNotFoundComponent } from './pages/pagenotfound/pagenotfound.component';
+// import { PageNotFoundComponent } from './pages/pagenotfound/pagenotfound.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { HelpComponent } from './pages/help/help.component';
 import { CouponsComponent } from './pages/coupons/coupons.component'; 
@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'Product', component: ProductsComponent},
   { path: 'help', component: HelpComponent},
   { path: 'coupons', component: CouponsComponent},
-  { path: '**', component: PageNotFoundComponent}
+  // { path: '**', component: PageNotFoundComponent}
 
 ];
 

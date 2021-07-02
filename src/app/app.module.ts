@@ -22,6 +22,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { HelpComponent } from './pages/help/help.component';
 import { NgxSpinnerModule } from "ngx-spinner";
 import { CouponsComponent } from './pages/coupons/coupons.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { RouterModule } from '@angular/router';
+
 
 
 @NgModule({
@@ -41,6 +46,10 @@ import { CouponsComponent } from './pages/coupons/coupons.component';
     ProductsComponent,
     HelpComponent,
     CouponsComponent,
+    ProductListComponent,
+    ProductAlertsComponent,
+    ProductDetailsComponent,
+
     
   ],
   imports: [
@@ -52,8 +61,12 @@ import { CouponsComponent } from './pages/coupons/coupons.component';
     NgbPaginationModule, 
     NgbAlertModule,
     FontAwesomeModule,
-    NgxSpinnerModule 
-  
+    NgxSpinnerModule,
+    RouterModule.forRoot([
+      { path: '', component: ProductListComponent },
+      { path: 'products/:productId', component: ProductDetailsComponent },
+      { path: 'cart', component: CartComponent },
+    ])
   ],
   
   providers: [],
